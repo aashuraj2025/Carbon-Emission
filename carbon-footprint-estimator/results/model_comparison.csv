@@ -1,0 +1,4 @@
+Model,Accuracy (%),Training Time (seconds),CO2 Emissions (g)
+Logistic Regression,95.61,3.5878,0.006158296973334992
+Decision Tree,94.74,1.6988,3.553451427079756e-05
+Random Forest,96.49,1.8111,0.0025721187803770754

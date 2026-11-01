@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+codecarbon
+psutil
+pynvml
+matplotlib
+flask
+flask-cors
