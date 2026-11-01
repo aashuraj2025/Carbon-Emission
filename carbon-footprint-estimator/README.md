@@ -61,3 +61,9 @@ cd frontend
 npm run dev
 ```
 *(Opens on `http://localhost:5173`)*
+
+### Deploy the frontend to Netlify
+
+The repository-root `netlify.toml` configures Netlify to build the Vite frontend from `carbon-footprint-estimator/frontend`, publish its `dist` directory, and serve the app for direct URL requests. In Netlify, connect this repository and leave the build settings to the configuration file.
+
+The Flask backend is not deployed by this configuration. The hosted dashboard will use its bundled fallback data unless you deploy the backend separately and configure the frontend to use its public API URL.
